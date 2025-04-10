@@ -4,25 +4,25 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
-  nodejs,
-  mongodb,
   git,
+  kotlin,
+  csharp,
+  java,
+  vue,
+  unity,
+  php,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  artur,
+  rosemont,
+  benji,
+  lingochat,
+  vinyl,
+  animix,
 } from "../assets";
 
 export const navLinks = [
@@ -32,7 +32,7 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experience",
   },
   {
     id: "contact",
@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Developpement",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Mobile Native Developpement",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Fullstack Developpement",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Game Developpement",
     icon: creator,
   },
 ];
@@ -73,36 +73,41 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
   {
     name: "git",
     icon: git,
+  },
+  {
+    name: "php",
+    icon: php,
+  },
+  {
+    name: "vue",
+    icon: vue,
+  },
+  {
+    name: "unity",
+    icon: unity,
+  },
+  {
+    name: "kotlin",
+    icon: kotlin,
+  },
+  {
+    name: "java",
+    icon: java,
+  },
+  {
+    name: "csharp",
+    icon: csharp,
   },
   {
     name: "figma",
@@ -116,150 +121,113 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Intern At Progression",
+    company_name: "Rosemont College",
+    icon: rosemont,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "january 2025 - march 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Contributed to the development of an educational web application focused on programming learning.",
+      "Built interactive user interfaces using Vue.js and Vuetify to enhance the learning experience.",
+      "Integrated backend features with Laravel and PHP to manage user data and course content.",
+      "Collaborated in a small agile team to implement features, fix bugs, and ensure a smooth user experience.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Intern at Artur.art",
+    company_name: "L'Original",
+    icon: artur,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "march 2025 - june 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained an artistic website using WordPress, PHP, and custom shortcodes.",
+      "Built interactive user interfaces with HTML, CSS, and JavaScript to reflect the creative vision of the project.",
+      "Used Figma to prototype and present design ideas and page layouts during the development process.",
+      "Integrated AI-based features to enhance user interaction and personalize the experience.",
+      "Ensured the website was responsive and functioned consistently across different browsers and devices.",
     ],
   },
+
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Animix",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A web-based platform for anime lovers that lets users browse a rich catalogue of anime, add their favorites, and manage their personal watchlist. Built for discovering, organizing, and celebrating your favorite series.",
     tags: [
       {
-        name: "react",
+        name: "php",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "sql",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "html & css",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: animix,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "LingoChat",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A web application that allows users to create an account, connect with others, and chat based on shared language interests. Users can showcase the languages they speak on their profile and engage in meaningful conversations with a global community.",
     tags: [
       {
-        name: "react",
+        name: "angular",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "bootstrap",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "java",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: lingochat,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Vinyl Paradise",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An Android app connected to a custom API that allows users to browse a wide selection of vinyl records, view detailed information, and contact sellers directly to buy and collect vinyls. Perfect for music enthusiasts and collectors.",
     tags: [
       {
-        name: "nextjs",
+        name: "Kotlin",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Android Studio",
         color: "green-text-gradient",
       },
+    ],
+    image: vinyl,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Arctic Adventures: Benji's Quest",
+    description:
+      "A 2D/3D adventure game developed in Unity that follows Benji, a brave little penguin on a mission to collect as many fish as possible to feed his family. Dive into icy landscapes, overcome obstacles, and explore the Arctic in this fun and heartwarming quest.",
+    tags: [
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "Unity",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Csharp",
+        color: "green-text-gradient",
       },
     ],
-    image: tripguide,
+    image: benji,
     source_code_link: "https://github.com/",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
