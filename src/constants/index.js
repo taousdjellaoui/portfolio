@@ -171,7 +171,7 @@ const projects = [
       },
     ],
     image: animix,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/taousdjellaoui",
   },
   {
     name: "LingoChat",
@@ -192,7 +192,7 @@ const projects = [
       },
     ],
     image: lingochat,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/taousdjellaoui",
   },
   {
     name: "Vinyl Paradise",
@@ -209,7 +209,7 @@ const projects = [
       },
     ],
     image: vinyl,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/taousdjellaoui",
   },
   {
     name: "Arctic Adventures: Benji's Quest",
@@ -226,7 +226,7 @@ const projects = [
       },
     ],
     image: benji,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/taousdjellaoui",
   },
 ];
 
